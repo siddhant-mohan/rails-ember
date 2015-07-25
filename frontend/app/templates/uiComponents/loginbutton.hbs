@@ -1,0 +1,14 @@
+{{! TODO change this to check for currentUser because login nd register should show up when currentUser is not set}}
+
+<div class="login-text">
+	{{#if App.user}}
+		<span id='user-name-top'>
+			Hello, {{App.user.firstname}} {{App.user.lastname}}
+		</span>
+		<a id='change-password-button' class='buttonhover' {{action 'loginClick'}} >Change password | </a>
+		<a id='logoutbutton' class='buttonhover' {{action 'logout'}}>Logout</a>
+	{{else}}
+		<a id='registerbutton' class='buttonhover' {{action 'loginClick'}}>Sign Up |</a>
+		<a id='loginbutton' class='buttonhover' {{action 'loginClick'}}> Login</a>
+	{{/if}}
+</div>

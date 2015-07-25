@@ -1,0 +1,39 @@
+<div class='modal-section-header'>Account Login</div>
+<form id='login-form' class='floatLT' method='POST' autocomplete="on">
+	<div class='modal-section-content floatLT centered'>
+		{{#if processing}}
+			<div class='login-modal-loader floatLT'>
+				sending password reset instructions...
+			</div>
+		{{else}}
+			<ul class='form-list login-list noStyle noMargin floatLT'>
+				<li class='form-item floatLT login-item'>
+					<div class='input-label floatLT'>Email</div>
+					<div class='input floatLT'>{{input type="text" value=emailLogin placeholder="Registered Email" classNames="inputemailLogin floatLT" name='email'}}</div>
+				</li>
+				<li class='form-item floatLT login-item'>
+					<div class='input-label floatLT'>Password</div>
+					<div class='input floatLT'>{{input type="password" value=passwordLogin placeholder="Password" classNames="inputpasswordLogin floatLT" name='password'}}</div>
+				</li>
+				<li class='form-item floatLT login-item'>
+					<a id='forgot-password-btn' class='buttonhover' {{action 'forgotpassword'}}>Forgot your password ?</a>
+				</li>
+				<li class='form-item floatLT form-button'>
+					<input id='login-modal-login-button' type="submit" value="Log In" {{bind-attr class="view.loginButtonClass"}} {{action 'login'}}/>
+				</li>
+				<li class='form-item floatLT form-button'>
+					<input type='button' value="Facebook Login"{{bind-attr class="view.loginButtonClass"}} {{action 'facebooklogin'}}/>
+				</li>
+				<li class='form-item floatLT form-button'>
+					<input type='button' value="Google Login"{{bind-attr class="view.loginButtonClass"}} {{action 'googlelogin'}}/>
+				</li>
+				<li class='form-item floatLT form-button'>
+					<input type='button' value="Linkedin Login"{{bind-attr class="view.loginButtonClass"}} {{action 'linkedinlogin'}}/>
+				</li>
+				<li class='form-item floatLT form-button'>
+					<input type='button' value="Twitter Login"{{bind-attr class="view.loginButtonClass"}} {{action 'twitterlogin'}}/>
+				</li>
+			</ul>
+		{{/if}}
+	</div>
+</form>
