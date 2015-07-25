@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta name="google-signin-clientid" content="154893848799-6gjhimkbeu5nvr336pr8kaiku7mu9j02.apps.googleusercontent.com" />
+	<meta name="google-signin-scope" content="email" />
+	<meta name="google-signin-cookiepolicy" content="single_host_origin" />
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, width=device-width"/>
+		<title>Boiler Plate</title>
+		<link rel="stylesheet" href="/stylesheets/app.css">
+		<script>
+			// Enable Brunch HTML/CSS/JS Auto Reload
+			window.brunch = window.brunch || {};
+			window.brunch['auto-reload'] = { enabled: true };
+		</script>
+		<!-- Google Plus Javascript API Async Load Start -->
+		<script type="text/javascript">
+			render = function(){
+				//use this flag before sending acccessing gapi.
+				window.gapiLoaded = true
+			};
+			(function() {
+				var po = document.createElement('script');
+				po.type = 'text/javascript'; po.async = true;
+				po.src = 'https://apis.google.com/js/client:plusone.js?onload=render';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(po, s);
+			})();
+		</script>
+		<!-- Google Plus Javascript API Load End -->
+
+		<!-- Linkedin Javascript API Async Load Start -->
+		<script type="text/javascript" src="https://platform.linkedin.com/in.js?async=true"></script>
+		<script type="text/javascript">
+			onLinkedInLoad = function(){
+				window.linkedInLoaded = true
+			}
+			IN.init({
+				onLoad: "onLinkedInLoad",
+				api_key: '75291j3don9dv6',
+				credentials_cookie: true,
+				authorize: false
+			});
+		</script>
+		<!-- Linkedin Javascript API Load End -->
+	</head>
+	<body>
+	<!-- Facebook Javascript API Async Load Start -->
+	<div id="fb-root"></div>
+	<script type="text/javascript">
+		window.fbAsyncInit = function(){
+			//use this flag before sending acccessing FB object in application.
+			window.fbLoaded = true;
+		};
+		(function() {
+			var e = document.createElement('script'); e.async = true;
+			e.src = document.location.protocol +
+					'//connect.facebook.net/en_US/all.js';
+			document.getElementById('fb-root').appendChild(e);
+		}());
+	</script>
+	<!-- Facebook Javascript API Load End -->
+	<script src="/javascripts/vendor.js"></script>
+	<script src="/javascripts/app.js"></script>
+	<script>require('initialize');</script>
+	</body>
+</html>
+
+
