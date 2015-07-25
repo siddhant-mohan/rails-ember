@@ -1,2 +1,0 @@
- * * * * * /home/navyug/db_backup_cron.sh
-

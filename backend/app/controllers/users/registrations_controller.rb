@@ -1,8 +1,8 @@
 #####################################################################
-# Copyright (C) 2013 Navyug Infosolutions Pvt Ltd.
-# Developer : Ranu Pratap Singh
-# Email : ranu.singh@navyuginfo.com
-# Created Date : 25/7/14
+# Copyright (C) 2015 Siddhant Mohan
+# Developer : Siddhant Mohan
+# Email : mohan.siddhant2000@gmail.com
+# Created Date : 26/7/14
 #####################################################################
 
 module Users

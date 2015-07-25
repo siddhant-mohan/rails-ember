@@ -8,7 +8,7 @@ module ControllerMacros
       @user = User.new
       @user.firstname = "firstname"
       @user.lastname = "lastname"
-      @user.email = "kapil.kumar@navyuginfo.com"
+      @user.email = "siddhant.mohan@navyuginfo.com"
 
       @user.password='new life'
       @user.skip_confirmation!

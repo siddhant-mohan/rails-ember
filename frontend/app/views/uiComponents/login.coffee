@@ -1,10 +1,3 @@
-#####################################################################
-# Copyright (C) 2013 Navyug Infosolutions Pvt Ltd.
-# Developer : Dhruv Parmar
-# Email : dhruvparmar@gmail.com
-# Created Date : 21-Aug-2013
-#####################################################################
-
 App = require 'app'
 
 App.AnimatedView = (self,time) ->

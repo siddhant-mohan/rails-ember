@@ -2,9 +2,9 @@ App = require 'app'
 
 App.CONSTANTS =
 	HOST: 'http://localhost:3000'
-	GOOGLE_CLIENT_ID: "154893848799-6gjhimkbeu5nvr336pr8kaiku7mu9j02.apps.googleusercontent.com"
-	FACEBOOK_APP_ID: '267182603462991'
-	LINKEDIN_APP_KEY: '75291j3don9dv6'
+#	GOOGLE_CLIENT_ID: "154893848799-6gjhimkbeu5nvr336pr8kaiku7mu9j02.apps.googleusercontent.com"
+#	FACEBOOK_APP_ID: '267182603462991'
+#	LINKEDIN_APP_KEY: '75291j3don9dv6'
 
 
 App.CONSTANTS.LOGOUT_URL = App.CONSTANTS.HOST + '/sign_out'

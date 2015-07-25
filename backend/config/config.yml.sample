@@ -9,9 +9,9 @@ defaults: &defaults
     address: 'smtp.gmail.com'
     port: '587'
     authentication: 'plain'
-    username: 'lcms.navyug@gmail.com'
+    username: 'mohan.siddhant2000@gmail.com'
     password: 'new life'
-    recipient: 'ranu.singh@navyuginfo.com'
+    recipient: 'mohan.siddhant2000@gmail.com'
 
 # Environment Specific Configuration
 development:
@@ -29,6 +29,6 @@ production:
     address: 'smtp.mandrillapp.com'
     port: '587'
     authentication: 'plain'
-    username: 'hardik.patel@navyuginfo.com'
+    username: 'mohan.siddhant2000@gmail.com'
     password: 'xI9woDVsdEPoD9Mx4JmuBA'
-    recipient: 'info@navyuginfo.com'
+    recipient: 'mohan.siddhant2000@gmail.com'

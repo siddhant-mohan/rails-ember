@@ -1,10 +1,3 @@
-#####################################################################
-# Copyright (C) 2013 Navyug Infosolutions Pvt Ltd.
-# Developer : Ranu Pratap Singh
-# Email : ranu.singh@navyuginfo.com
-# Created Date : 26/7/14
-#####################################################################
-
 App = require 'app'
 
 # controller would include this mixin to show the alert messages

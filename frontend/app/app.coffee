@@ -1,7 +1,7 @@
 #####################################################################
-# Copyright (C) 2014 Navyug Infosolutions Pvt Ltd.
-# Developer : Ranu Pratap Singh
-# Email : ranu.singh@navyuginfo.com
+# Copyright (C) 2015 Siddhant Mohan
+# Developer : Siddhant Mohan
+# Email : mohan.siddhant2000@gmail.com
 # Created Date : 26/7/14
 #####################################################################
 
@@ -11,7 +11,7 @@ config =
 	LOG_TRANSITIONS_INTERNAL: false
 	#rootElement: '#qunit-fixture'          #comment this line to run tests using karma
 
-App= Ember.Application.create(config)
+module.exports = App= Ember.Application.create(config)
 
 Session = Ember.Object.extend
 	isAuthenticated: false
